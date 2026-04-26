@@ -1,0 +1,7 @@
+/* Write Css prop directly */
+
+h1{
+    color: blueviolet;
+    background-color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
