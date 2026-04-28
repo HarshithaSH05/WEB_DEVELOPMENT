@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Box{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            color: brown;
+            margin: auto;
+            transition: 3s;       /* transition - time it takes to change(hover) */
+        }
+
+        /* Hover - When we move our mouse and it changes the style  */
+
+        #Magic:hover{
+            transform: scale(1.3);
+            /* scale(1-original size . change of size value(ex: .3)) It is used to change the size of tag  */
+            background-color: cadetblue;
+            transform: rotate(360deg);  
+            transform: rotateX(180deg);
+            transform: translateX(-100px);      /* moves left - along -ve x axis as we gave -100px */
+            transform: translateY(100px);      /* moves down - along y axis  */
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="Box" id="Magic">
+        400
+    </div>
+</body>
+</html>
